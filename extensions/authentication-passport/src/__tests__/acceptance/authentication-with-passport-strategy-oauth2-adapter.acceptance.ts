@@ -28,7 +28,7 @@ import {RestApplication, RestBindings, Response} from '@loopback/rest';
 import {
   startApp as startMockOauth2Server,
   stopApp as stopMockOauth2Server,
-} from './fixtures/mock-oauth2-social-app';
+} from '../../mock-oauth2-social-app';
 import * as url from 'url';
 import {inject} from '@loopback/core';
 import axios from 'axios';

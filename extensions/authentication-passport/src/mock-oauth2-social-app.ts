@@ -21,7 +21,7 @@ import bodyParser from 'body-parser';
 import express from 'express';
 import {Server} from 'http';
 import jwt from 'jsonwebtoken';
-import {MyUser} from './user-repository';
+import {MyUser} from './__tests__/acceptance/fixtures/user-repository';
 
 const app = express();
 let server: Server;
